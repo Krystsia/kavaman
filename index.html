@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link href="css/reset.css" rel="stylesheet"/>
+        <link href="css/fonts.css" rel="stylesheet"/>
+        <link href="css/style.css" rel="stylesheet"/>
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery.formstyler.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/js1.js"></script>
+        <title>Kavaman</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="svg/logo.svg" alt="logo"></object>
+                    </a>
+                </div>
+                <div class="mapinheader">
+                    <a href="#"><img src="svg/map.svg" alt="map"/></a>
+                </div>
+                <div class="search">
+                    <div class="rail">
+                        <form class="searcher" action="#" method="get">
+                            <input class="headersearch" type="text" placeholder="пошук"/>
+                            <img class="loop" src="svg/search.svg" alt="search"/>
+                            <input type="submit"/>
+                        </form>
+                        <img class="cross" src="svg/close.svg" alt="close">
+                    </div>
+                </div> 
+                <div class="search2">
+                    <div class="rail2">
+                        <img class="loop2" src="svg/search.svg" alt="search"/>
+                        <div class="loophov"></div>
+                        <img class="cross2" src="svg/close.svg" alt="close"/>
+                    </div>
+                </div>
+            </header>
+            <section class="underheader">
+                <div class="map">
+                    <a href="#"><img src="svg/grid.svg" alt="grid"/></a>
+                    <a href="#"><img src="svg/map.svg" alt="map"/></a>
+                </div>
+                <form class="sortable" action="#" method="get">
+                    <select id="sort">
+                        <option>Экспрэса</option>
+                        <option>Рыстрэта</option>
+                        <option>Лунга</option>
+                        <option>Амерыкана</option>
+                        <option>Флэт вайт</option>
+                        <option>Капучына</option>
+                        <option>Мак'ята</option>
+                        <option>Латэ</option>
+                        <option>Па-венску</option>
+                        <option>Латэ мак'ята</option>
+                        <option>Айрыш</option>
+                        <option>Раф кава</option>
+                        <option>Глясэ</option>
+                        <option>Мока</option>
+                    </select>
+                    <label>
+                        <input class="checkbox" type="checkbox"/>
+                        <span>На вынас</span>
+                    </label>
+                    <select id="where">
+                        <option>Мiнск</option>
+                        <option>Гомель</option>
+                        <option>Магiлеу</option>
+                    </select>
+                </form>
+            </section>
+            <section class="main">
+                
+                <form class="sortable2" action="#" method="get">
+                    <fieldset id="firstitem">
+                            <input class="sd" type="submit"/>
+                            <input type="text" placeholder="поiск"/>
+                    </fieldset>
+                     <div class="container">
+                         <fieldset>
+                            <input class = "radio" id="expresso" type="radio" name="sorts"/>
+                            <label for="expresso">Экспрэса</label>
+                            <input class = "radio" id="ristretto" type="radio" name="sorts"/>
+                            <label for="ristretto">Рыстрэта</label>
+                            <input class = "radio" id="lungo" type="radio" name="sorts"/>
+                            <label for="lungo">Лунга</label>
+                            <input class = "radio" id="americano" type="radio" name="sorts"/>
+                            <label for="americano">Амерыкана</label>
+                            <input class = "radio" id="cappuccino" type="radio" name="sorts"/>
+                            <label for="cappuccino">Капучына</label>
+                            <input class = "radio" id="macchiato" type="radio" name="sorts"/>
+                            <label for="macchiato">Мак'ята</label>
+                            <input class = "radio" id="latte" type="radio" name="sorts"/>
+                            <label for="latte">Латэ</label>
+                            <input class = "radio" id="latteMacchiato" type="radio" name="sorts"/>
+                            <label for="latteMacchiato">Латэ мак'ята</label>
+                            <input class = "radio" id="viennese" type="radio" name="sorts"/>
+                            <label for="viennese">Па-венску</label>
+                            <input class = "radio" id="irish" type="radio" name="sorts"/>
+                            <label for="irish">Айрыш</label>
+                            <input class = "radio" id="raf" type="radio" name="sorts"/> 
+                            <label for="raf">Раф кава</label>
+                            <input class = "radio" id="glace" type="radio" name="sorts"/>
+                            <label for="glace">Глясэ</label>
+                            <input class = "radio" id="mokko" type="radio" name="sorts"/>
+                            <label for="mokko">Мока</label>
+                        </fieldset>
+                        <fieldset>
+                            <input id="takeaway" type="checkbox"/>
+                            <label for="takeaway">На вынас</label>
+                        </fieldset>
+                        <fieldset class="lastitem">
+                            <input id="minsk" type="radio" name="city"/>
+                            <label for="minsk">Мiнск</label>
+                            <input id="gomel" type="radio" name="city"/>
+                            <label for="gomel">Гомель</label>
+                            <input id="mogilev" type="radio" name="city"/>
+                            <label for="mogilev">Магiлеу</label>
+                        </fieldset>
+                    </div>
+                </form>
+                
+                <div class="sqrwrap sqrwrap1">
+                    <div class="sqr1 pos">
+                        <article class="article">
+                            <h2>зерно</h2>
+                            <p>незалежности 46</p>
+                            <div class="footer">
+                                <p>10..23</p>
+                                <div class="stars"></div>
+                            </div>
+                        </article>
+                        <a class="transp" href="#"></a>
+                        <img src="img/zerno.jpg" alt="zerno"/>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <div class="sqrwrap">
+                    <div class="sqr pos">
+                        <article class="article">
+                            <h2>guru coffee club</h2>
+                            <p>незалежности 46</p>
+                            <div class="footer">
+                                <p>10..23</p>
+                                <div class="stars"></div>
+                            </div>
+                        </article>
+                        <a class="transp" href="#"></a>
+                        <img src="img/guru.jpg" alt="guru"/>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <div class="sqrwrap">
+                    <div class="sqr pos">
+                        <article class="article">
+                            <h2>coffee mall</h2>
+                            <p>незалежности 46</p>
+                            <div class="footer">
+                                <p>10..23</p>
+                                <div class="stars"></div>
+                            </div>
+                        </article>
+                        <a class="transp" href="#"></a>
+                        <img src="img/coffeemall.jpg" alt="coffeemall"/>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <div class="sqrwrap">
+                    <div class="sqr pos">
+                        <article class="article">
+                            <h2>пряности <span class="nowrap">& сладости</span></h2>
+                            <p>незалежности 46</p>
+                            <div class="footer">
+                                <p>10..23</p>
+                                <div class="stars"></div>
+                            </div>
+                        </article>
+                        <a class="transp" href="#"></a>
+                        <img src="img/jam.jpg" alt="jam"/>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <div class="sqrwrap">
+                    <div class="sqr pos">
+                        <article class="article">
+                            <h2>wake up coffee</h2>
+                            <p>незалежности 46</p>
+                            <div class="footer">
+                                <p>10..23</p>
+                                <div class="stars"></div>
+                            </div>
+                        </article>
+                        <a class="transp" href="#"></a>
+                        <img src="img/mokoloko.jpg" alt="mokoloko"/>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <div class="sqrwrap">
+                    <div class="sqr pos">
+                        <article class="article">
+                            <h2>jam</h2>
+                            <p>незалежности 46</p>
+                            <div class="footer">
+                                <p>10..23</p>
+                                <div class="stars"></div>
+                            </div>
+                        </article>
+                        <a class="transp" href="#"></a>
+                        <img src="img/ps.jpg" alt="ps"/>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <div class="sqrwrap">
+                    <div class="sqr pos">
+                        <article class="article">
+                            <h2>моколоко</h2>
+                            <p>незалежности 46</p>
+                            <div class="footer">
+                                <p>10..23</p>
+                                <div class="stars"></div>
+                            </div>
+                        </article>
+                        <a class="transp" href="#"></a>
+                        <img src="img/wakeup.jpg" alt="wakeup"/>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <div class="sqrwrap">
+                    <div class="sqr pos">
+                        <article class="article">
+                            <h2>guru coffee club</h2>
+                            <p>незалежности 46</p>
+                            <div class="footer">
+                                <p>10..23</p>
+                                <div class="stars"></div>
+                            </div>
+                        </article>
+                        <a class="transp" href="#"></a>
+                        <img src="img/jam.jpg" alt="jam"/>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <div class="sqrwrap">
+                    <div class="sqr pos">
+                        <article class="article">
+                            <h2>coffee mall</h2>
+                            <p>незалежности 46</p>
+                            <div class="footer">
+                                <p>10..23</p>
+                                <div class="stars"></div>
+                            </div>
+                        </article>
+                        <a class="transp" href="#"></a>
+                        <img src="img/mokoloko.jpg" alt="mokoloko"/>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <div class="sqrwrap">
+                    <div class="sqr pos">
+                        <article class="article">
+                            <h2>зерно</h2>
+                            <p>незалежности 46</p>
+                            <div class="footer">
+                                <p>10..23</p>
+                                <div class="stars"></div>
+                            </div>
+                        </article>
+                        <a class="transp" href="#"></a>
+                        <img src="img/ps.jpg" alt="ps"/>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <div class="sqrwrap">
+                    <div class="sqr pos">
+                        <article class="article">
+                            <h2>jam</h2>
+                            <p>незалежности 46</p>
+                            <div class="footer">
+                                <p>10..23</p>
+                                <div class="stars"></div>
+                            </div>
+                        </article>
+                        <a class="transp" href="#"></a>
+                        <img src="img/wakeup.jpg" alt="wakeup"/>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+            </section>
+            <div class="clear"></div>
+        </div>
+        <footer>
+            <div class="line"></div>
+            <div class="firstkava">
+                <div class="dr"><a  href="#">&#169 Каваман</a></div>
+            </div>
+            <div>
+                <a class="drowline" href="#"> Iнстраграм</a>
+            </div>
+            <div>
+                <a class="drowline" href="#">Фэйсбук</a>
+            </div>
+            <div class="rights">
+                <a  href="#">Зроблена у 2015 годзеу студыi Вадзiма Скроцкага</a>
+            </div>
+        </footer>
+    </body>
+</html>
